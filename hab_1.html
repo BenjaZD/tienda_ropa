@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .counter {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.counter input[type="radio"] {
+  display: none;
+}
+
+.counter label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #ddd;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.counter input[type="radio"]:checked + label {
+  background-color: #333;
+  color: #fff;
+}
+    </style>
 </head>
 <body>
-    
+    <div class="counter">
+        <input type="radio" id="counter-0" name="counter" value="0" checked>
+        <label for="counter-0">0</label>
+        <input type="radio" id="counter-1" name="counter" value="1">
+        <label for="counter-1">1</label>
+        <input type="radio" id="counter-2" name="counter" value="2">
+        <label for="counter-2">2</label>
+        <input type="radio" id="counter-3" name="counter" value="3">
+        <label for="counter-3">3</label>
+      </div>
 </body>
 </html>
