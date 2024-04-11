@@ -5,10 +5,9 @@
 }
 body{
     display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-    
+    flex-direction: column;
+   
+    margin: 0;
 }
 img{
 	max-width: 100%;
@@ -26,7 +25,7 @@ header{
     background-color: #ddd;
     margin-bottom: 50px;
     color:#333;
-    width: 1338px;
+    width: 100%;
     margin:0;
     text-align: center;
 }
@@ -34,6 +33,9 @@ main{
     display: flex;
 	gap: 30px;
 	margin-bottom: 80px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .container-img{
     background-color:#f7f7f9;
@@ -98,8 +100,7 @@ main{
     display: flex;
 	flex-direction: column;
 	border-bottom: 1px solid #e4e4e4;
-	padding: 10px 0;
-    
+	padding: 10px 0;  
 }
 .container-acordion{
     width: 600px;

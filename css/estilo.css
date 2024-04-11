@@ -87,10 +87,12 @@ footer .social-icon {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    align-items: center;
+
 }
 body{
 	font-family: 'Ubuntu';
-	margin: 0 auto;
+	margin: 0 auto;   
 }
 img{
 	max-width: 100%;
@@ -100,4 +102,54 @@ nav{
 }
 .a{
     align-items: center;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+.login-button {
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;
+  }
+
+.register-button {
+    background-color: #28a745;
+    color: #fff;
+    border: 2px solid #28a745;
+  }
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+.button:active {
+    transform: translateY(1px);
+  }
+
+  
+@media (max-width: 480px) {
+    .button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+.a{
+    text-align: center;
+}
+.navbar-custom {
+    background-color:#d9d9d9; /* Cambiar este valor al color deseado */
+  }
+.d-flex{
+    align-items: center;
+   display: flex;
+  margin: 0;
 }

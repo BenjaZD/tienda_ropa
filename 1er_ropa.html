@@ -46,115 +46,108 @@
   
 <header><div class="container-titulo">SATIN TP WL</div></header>
 
-  <main>
-      <div class="container-img">
-        <div class="container-img-producto">
-            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a95f185f3d904a1a976a76d0837a9c0f_9366/SATIN_TP_WL_Negro_IU2520_23_hover_model.jpg">
-            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/50af625c03dc4022aefa54b7e9c523de_9366/SATIN_TP_WL_Negro_IU2520_25_model.jpg">
-            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d170458a01084585929d0c389516b9ef_9366/SATIN_TP_WL_Negro_IU2520_01_laydown.jpg">
-            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/14dc7766a0224edca915f394afd1f237_9366/SATIN_TP_WL_Negro_IU2520_21_model.jpg">
-          </div>
+<main>
+  <div class="container d-flex flex-row">
+    <div class="container-img me-5">
+      <div class="container-img-producto">
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a95f185f3d904a1a976a76d0837a9c0f_9366/SATIN_TP_WL_Negro_IU2520_23_hover_model.jpg">
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/50af625c03dc4022aefa54b7e9c523de_9366/SATIN_TP_WL_Negro_IU2520_25_model.jpg">
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d170458a01084585929d0c389516b9ef_9366/SATIN_TP_WL_Negro_IU2520_01_laydown.jpg">
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/14dc7766a0224edca915f394afd1f237_9366/SATIN_TP_WL_Negro_IU2520_21_model.jpg">
       </div>
-     
-      <div class="container-info-producto">
-          <div class="container-price">
-              <span>$59.990</span>
-              <i class="fa-solid fa-angle-right"></i>
-          </div>
+    </div>
 
-          <div class="container-detalles-producto">
-              <div class="container-tallas">
-                <input type="radio" id="counter-0" name="counter" value="0" checked>
-                <label for="counter-0">S</label>
-                <input type="radio" id="counter-1" name="counter" value="1">
-                <label for="counter-1">M</label>
-                <input type="radio" id="counter-2" name="counter" value="2">
-                <label for="counter-2">L</label>
-                <input type="radio" id="counter-3" name="counter" value="3">
-                <label for="counter-3">XL</label>
-              </div>
-          </div>
+    <div class="container-info-producto">
+      <div class="container-price">
+        <span>$59.990</span>
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
 
-          <div class="container-carrito">
-              <div class="container-lista-product">
-                  <input
-                      type="number"
-                      placeholder="1"
-                      value="1"
-                      min="0"
-                      max="10"
-                      class="input-lista-product"
-                  />
-                  <div class="btn-increment-decrement">
-                      <i class="fa-solid fa-chevron-up" id="increment"></i>
-                      <i class="fa-solid fa-chevron-down" id="decrement"></i>
-                  </div>
-              </div>
-              <button class="btn-add-carrito">
-                <i class="bi bi-bag-plus-fill"></i>
-                  Añadir al carrito
+      <div class="container-detalles-producto">
+        <div class="container-tallas">
+          <input type="radio" id="counter-0" name="counter" value="0" checked>
+          <label for="counter-0">S</label>
+          <input type="radio" id="counter-1" name="counter" value="1">
+          <label for="counter-1">M</label>
+          <input type="radio" id="counter-2" name="counter" value="2">
+          <label for="counter-2">L</label>
+          <input type="radio" id="counter-3" name="counter" value="3">
+          <label for="counter-3">XL</label>
+        </div>
+      </div>
+
+      <div class="container-carrito">
+        <div class="container-lista-product">
+          <input type="number" placeholder="1" value="1" min="0" max="10" class="input-lista-product" />
+          <div class="btn-increment-decrement">
+            <i class="fa-solid fa-chevron-up" id="increment"></i>
+            <i class="fa-solid fa-chevron-down" id="decrement"></i>
+          </div>
+        </div>
+        <button class="btn-add-carrito">
+          <i class="bi bi-bag-plus-fill"></i>
+          Añadir al carrito
+        </button>
+        <button class="add-to-cart-btn">Agregar al carrito</button>
+        <div class="modal">
+          <div class="modal-content">
+            <p>El producto se ha agregado al carrito de compras.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-acordion">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                descripción
               </button>
-              <button class="add-to-cart-btn">Agregar al carrito</button>
-              <div class="modal">
-                <div class="modal-content">
-                  <p>El producto se ha agregado al carrito de compras.</p>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Satin Tp Wl es un nuevo producto para Mujer de adidas. Te invitamos a ver las imágenes para apreciar más detalles desde diferentes ángulos. Si ya conoces Satin Tp Wl puedes dejar una reseña abajo; siempre nos encanta conocer tu opinión.</p>
+                <p>Aún estamos trabajando para tener más información de Satin Tp Wl, así que vuelva pronto. Mientras tanto, toma nota del número de artículo que identifica el producto IU2520 para que lo puedas encontrar de nuevo fácilmente. Está categorizado como: Pantalones, Pantalones y Calzas</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Detalles
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Metodo de pago
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="image-container">
+                  <img src="https://computaciononline.cl/wp-content/uploads/2023/05/logo-onepay-300x88.png" alt="Image 1">
+                  <img src="https://data.cbonds.com/organisations_logos/24325/1609314895logo-mastercard-mobile.png" alt="Image 2">
+                  <img src="https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png" alt="Image 3">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Diners_Club_Logo3.svg/320px-Diners_Club_Logo3.svg.png" alt="Image 4">
+                  <img src="https://webshoptiger.com/wp-content/uploads/2023/09/American-Express-Color-1024x576.png" alt="Image 5">
+                  <img src="https://nuvei.com/wp-content/uploads/2023/02/magna-420x240.png" alt="Image 6">
+                  <img src="https://www.grafic.cl/images/redcompra.png" alt="Image 7">
                 </div>
               </div>
+            </div>
           </div>
-
-          <div class="container-acordion">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      descripción
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <p>Satin Tp Wl es un nuevo producto para Mujer de adidas. Te invitamos a ver las imágenes para apreciar más detalles desde diferentes ángulos. Si ya conoces Satin Tp Wl puedes dejar una reseña abajo; siempre nos encanta conocer tu opinión.
-
-                        Aún estamos trabajando para tener más información de Satin Tp Wl, así que vuelva pronto. Mientras tanto, toma nota del número de artículo que identifica el producto IU2520 para que lo puedas encontrar de nuevo fácilmente. Está categorizado como: Pantalones, Pantalones y Calzas</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Detalles
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Metodo de pago
-                    </button>
-                  </h2>
-                  <!--Metodos de pago-->
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <div class="image-container">
-                        <img src="https://computaciononline.cl/wp-content/uploads/2023/05/logo-onepay-300x88.png" alt="Image 1">
-                        <img src="https://data.cbonds.com/organisations_logos/24325/1609314895logo-mastercard-mobile.png" alt="Image 2">
-                        <img src="https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png" alt="Image 3">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Diners_Club_Logo3.svg/320px-Diners_Club_Logo3.svg.png" alt="Image 4">
-                        <img src="https://webshoptiger.com/wp-content/uploads/2023/09/American-Express-Color-1024x576.png" alt="Image 5">
-                        <img src="https://nuvei.com/wp-content/uploads/2023/02/magna-420x240.png" alt="Image 6">
-                        <img src="https://www.grafic.cl/images/redcompra.png" alt="Image 7">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
+        </div>
       </div>
-  </main>
+    </div>
+  </div>
+</main>
   <!--Pie de la pagina-->
   <footer id="footer">
     <div class="container">
