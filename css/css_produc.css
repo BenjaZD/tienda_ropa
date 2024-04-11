@@ -96,6 +96,53 @@ main{
 .btn-add-carrito:hover {
 	color: #1bbeb4;
 }
+/* Estilos personalizados para el modelo */
+#miModal.modal-content {
+    border: none;
+    border-radius: 0;
+}
+
+#miModal.modal-header 
+{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+  
+  #miModal.modal-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+  
+  #miModal.modal-body {
+    padding: 30px;
+    background-color: #f7f7f7;
+}
+  
+  #miModal.modal-footer {
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 0;
+}
+  
+  #miModal.btn {
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+  
+  #miModal.btn-secondary {
+    background-color: #ddd;
+    color: #333;
+}
+  
+  #miModal.btn-primary {
+    background-color: #252525;
+    color: #f7f7f7;
+}
 .container-descripcion{
     display: flex;
 	flex-direction: column;
