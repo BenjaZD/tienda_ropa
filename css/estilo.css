@@ -151,3 +151,8 @@ nav{
 .nav-link{
     color:black;
 }
+.carousel-item img {
+    max-height: 700px; /* Altura máxima */
+    min-height: 300px; /* Altura mínima */
+    width: auto; /* Permitir que el ancho se ajuste automáticamente */
+  }
