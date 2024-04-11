@@ -1,14 +1,9 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	
 }
-body{
-    display: flex;
-    flex-direction: column;
-   
-    margin: 0;
-}
+
 img{
 	max-width: 100%;
 }
@@ -92,57 +87,13 @@ main{
 	gap: 5px;
 	font-weight: 700;
 	cursor: pointer;
+    height: 35px;
+    width: 150px;
 }
 .btn-add-carrito:hover {
 	color: #1bbeb4;
 }
-/* Estilos personalizados para el modelo */
-#miModal.modal-content {
-    border: none;
-    border-radius: 0;
-}
 
-#miModal.modal-header 
-{
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 0;
-}
-  
-  #miModal.modal-title {
-    font-size: 24px;
-    font-weight: 300;
-}
-  
-  #miModal.modal-body {
-    padding: 30px;
-    background-color: #f7f7f7;
-}
-  
-  #miModal.modal-footer {
-    background-color: #f7f7f7;
-    border: none;
-    border-radius: 0;
-}
-  
-  #miModal.btn {
-    border: none;
-    border-radius: 0;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 500;
-}
-  
-  #miModal.btn-secondary {
-    background-color: #ddd;
-    color: #333;
-}
-  
-  #miModal.btn-primary {
-    background-color: #252525;
-    color: #f7f7f7;
-}
 .container-descripcion{
     display: flex;
 	flex-direction: column;
@@ -150,7 +101,7 @@ main{
 	padding: 10px 0;  
 }
 .container-acordion{
-    width: 600px;
+    width: 450px;
 }
 .container-tallas {
     font-size: 0.7rem;
@@ -192,7 +143,7 @@ main{
     filter: contrast(120%);
 }
 .image-container{
-    width: 80px;
+    width: 60px;
     display: flex;
 }
 footer {
